@@ -5,7 +5,7 @@ const initialState = {
     genres:{}
 }
 
-const homeSlice = createSlice({
+const HomeSlice = createSlice({
   name: 'home',
   initialState,
   reducers: {
@@ -19,4 +19,4 @@ const homeSlice = createSlice({
 })
 
 export const { getApiConfiguration, getGenres } = homeSlice.actions
-export default homeSlice.reducer
+export default HomeSlice.reducer
